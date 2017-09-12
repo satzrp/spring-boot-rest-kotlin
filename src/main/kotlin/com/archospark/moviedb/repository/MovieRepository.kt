@@ -1,8 +1,8 @@
 package com.archospark.moviedb.repository
 
-import com.archospark.moviedb.entity.Movie
+import com.archospark.moviedb.entity.MovieEntity
 import org.springframework.data.jpa.repository.JpaRepository
 
-interface MovieRepository : JpaRepository<Movie, Int> {
-    fun findByName(movieName: String) : Movie?
+internal interface MovieRepository : JpaRepository<MovieEntity, Int> {
+    fun findByName(movieName: String) : MovieEntity?
 }
