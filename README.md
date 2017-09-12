@@ -15,12 +15,12 @@ Application is bootstrapped using [Spring Initializr](http://start.spring.io)
 
 REST endpoints for performing different CRUD (Create, Read, Update, Delete) operations on Movie entity.
 
-* PUT - /moviedb/api/movie/add
+* PUT - /moviedb/api/movie
 * GET - /moviedb/api/movie/all
 * GET - /moviedb/api/movie/{movieId}
 * GET - /moviedb/api/movie/name/{movieName}
-* POST - /moviedb/api/movie/update/{movieId}
-* DELETE - /moviedb/api/movie/delete/{movieId}
+* POST - /moviedb/api/movie/{movieId}
+* DELETE - /moviedb/api/movie/{movieId}
 
 #### To build and run the application ####
 ```text
